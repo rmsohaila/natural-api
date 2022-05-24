@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Starter.DAL\Starter.DAL.csproj" />
+    <ProjectReference Include="..\Starter.Models\Starter.Models.csproj" />
+    <ProjectReference Include="..\LoggerService\Starter.LoggerService.csproj" />
+  </ItemGroup>
+
+</Project>
